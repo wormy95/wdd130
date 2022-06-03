@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato')
 
 #content {
     max-width: 1600px;
@@ -18,7 +18,7 @@
 
 nav a { 
     text-align: center;
-    color: #1c0303;
+    color: #3349FF;
     text-decoration: none;
     padding: 35px;
 }
@@ -48,7 +48,7 @@ nav a {
 #hero-msg h4 {
     text-align: center;
     color:bisque;
-    font-family: 'Brush Script MT','Brush Script Std';
+    font-family: 'IM Fell French Canon SC', sans-serif;
     font-size: 64px;
 }
 
@@ -80,7 +80,7 @@ h2 {
 
 header {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #e4e7e6;
+    background-color: #92ddc4;
     color: black;   
     display: grid;
     grid-template-columns: 150px auto;
@@ -93,13 +93,17 @@ nav {
 }
 
 nav a:hover {
-    background-color: black;
+    background-color:grey;
     color: blueviolet;
+}
+
+.book:hover, .join:hover {
+    background-color: grey;
 }
 
 .book, .join {
     background-color: antiquewhite;
-    color: black;
+    color: blue;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -148,6 +152,7 @@ footer {
 
 footer h3 a:hover {
     text-decoration: underline;
+    color:blue;
 }
 
 #logo_link {
@@ -158,7 +163,12 @@ footer h3 a:hover {
 
 .msg p {
     padding-bottom: 15px;
+    color:blue;
 }   
+
+.msg h2{
+    color:blue;
+}
 
 footer .social img {
     padding-top: 15px;
@@ -218,6 +228,23 @@ main section img {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+footer a{
+    color:blue;
+    text-decoration: none;
+}
+footer a:hover{
+    color:grey;
+}
+
+footer p {
+    font-size: 1.2em;
+
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
       
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -230,6 +257,7 @@ main section img {
     nav a {
         display: block;
         padding: 15px;
+        text-decoration: none;
     }
     #hero {
         margin-top: 0;
@@ -259,4 +287,6 @@ main section img {
     footer {
         margin-top: 25px;
     }
-}
+
+   
+}   
