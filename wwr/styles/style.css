@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
 #content {
@@ -248,6 +249,78 @@ footer p {
 footer p a:hover{
     text-decoration: underline;
 }
+
+
+   /*  Rivers Page CSS starts here */
+
+
+.location-grid{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    grid-gap: 50px;
+    
+     
+}
+
+
+.rivers-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.rivers-img {
+    
+    width: 100%;
+    border: 10px solid #b0a3d9;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+    
+}
+
+.idaho-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.utah-card {
+    grid-column:  8/10;
+    grid-row: 2/3;
+}
+
+.arizona-card {
+    grid-column:  5/7;
+    grid-row: 2/3;
+}
+
+.river-info {
+    margin-top: 100px;
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 10px solid #b0a3d9;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.river-header{
+    font-family: 'IM Fell French Canon SC', sans-serif;
+    font-size: 2em;
+ 
+}
+
+p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
       
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -291,5 +364,7 @@ footer p a:hover{
         margin-top: 25px;
     }
 
-   
+    
+
+
 }   
