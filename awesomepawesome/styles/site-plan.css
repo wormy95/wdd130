@@ -2,6 +2,7 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -56,7 +57,7 @@ header {
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color: ;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
