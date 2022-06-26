@@ -80,21 +80,23 @@
     
 
   }
-  .image1{
-    border: 5px;
+  .image1, .image2, .image3, .image4{
     box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 5px;
+  }
+    
+    
+
+  h1{
+    font-family: 'Lobster', cursive;
+
+
   }
 
-  .image2{
-    box-shadow: 5px 5px 10px #6f7364;
-  }
-  .image3{
-    box-shadow: 5px 5px 10px #6f7364;
+  p{
+    font-family: 'Varela Round', sans-serif;
   }
 
-  .image4{
-    box-shadow: 5px 5px 10px #6f7364;
-  }
 
   .main_content{
     background-color: #e4af9a;
@@ -110,7 +112,8 @@
 
   .footer-dark {
     bottom:0;
-    padding:25px 0;
+    padding:25px 0px ;
+    padding-bottom: 50px;
     color:black;
     background-color: #fef1ec;
     margin-top: 100px;
