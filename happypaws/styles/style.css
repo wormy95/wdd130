@@ -61,8 +61,6 @@ body {
   }
   
 
- 
-  
   nav {
     display: flex;
     justify-content: space-evenly;
@@ -127,6 +125,26 @@ body {
   border-color:#B37BA4;
   background-color:#DCCDE8;
   
+}
+
+.btn_container .btn {
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(66, 134, 229, 0.5) ;
+  color: white;
+  font-size: 25px;
+  padding: 24px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.btn_container .btn:hover {
+  background-color: #B37BA4;
 }
 
 .main_content {
