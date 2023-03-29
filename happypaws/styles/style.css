@@ -124,7 +124,7 @@ body {
     margin-bottom: 30px;
   }
   
-  .main_content h1 {
+  .main_content h1, h2 {
     font-size: 36px;
     color: #14BDEB;
   }
@@ -135,6 +135,7 @@ body {
     color: #14BDEB;
     text-align: left;
   }
+
 
   /* footer design */
 
