@@ -52,17 +52,27 @@
             <p> Introduction: Welcome to Happypaws, where we offer top-quality dog boarding and walking services for busy pet owners like you. We understand that life can be hectic, and sometimes it's difficult to give your furry friend the attention they need. That's why we're here to provide a safe, comfortable, and engaging environment for your pet while you're away. Our team of experienced professionals is dedicated to ensuring that your pup receives the highest level of care. We know that your pet is more than just an animal - they're a beloved member of your family. That's why we take the time to get to know your pet's personality, preferences, and quirks, so we can tailor our services to meet their unique needs.</p>
             <h2>Why Choose Us:</h2>
 
-            <p>
-                
-                Experience: Our team has years of experience working with dogs of all breeds and temperaments. We know how to handle any situation that may arise, and we're committed to providing your pet with the highest level of care. Our team is trained in pet first aid and CPR, so you can have peace of mind knowing that your pet is in good hands.
-                
-              </p>
-        
-               <p> Safety: We take your pet's safety seriously. Our team is trained in dog behavior, and we understand the warning signs that a dog may be feeling uncomfortable or stressed. We take every precaution to ensure that your pet is safe and secure at all times.</p>
-        
-               <p> Flexibility: We understand that life can be unpredictable. That's why we offer flexible scheduling options to meet your needs. Whether you need us for a few hours or a few days, we're here to help. We're happy to work with you to create a customized care plan that fits your pet's needs and your schedule.</p>
-        
-                <p> Personalized Attention: We treat each of our clients' pets as if they were our own. We'll get to know your pet's personality and preferences, and we will provide personalized attention to ensure that your pet feels comfortable and happy in our care. We understand that each pet is unique, and we'll work with you to create a customized care plan that meets their individual needs.</p>
+            <button class="accordion">Experience</button>
+            <div class="panel">
+              <p>Our team has years of experience working with dogs of all breeds and temperaments. We know how to handle any situation that may arise, and we're committed to providing your pet with the highest level of care. Our team is trained in pet first aid and CPR, so you can have peace of mind knowing that your pet is in good hands.</p>
+            </div>
+            
+            <button class="accordion">Safety</button>
+            <div class="panel">
+              <p>Safety: We take your pet's safety seriously. Our team is trained in dog behavior, and we understand the warning signs that a dog may be feeling uncomfortable or stressed. We take every precaution to ensure that your pet is safe and secure at all times.</p>
+            </div>
+            
+            <button class="accordion">Flexibility</button>
+            <div class="panel">
+              <p>We understand that life can be unpredictable. That's why we offer flexible scheduling options to meet your needs. Whether you need us for a few hours or a few days, we're here to help. We're happy to work with you to create a customized care plan that fits your pet's needs and your schedule.</p>
+            </div>
+
+            <button class="accordion">Personalised Attention</button>
+            <div class="panel">
+              <p>We treat each of our clients' pets as if they were our own. We'll get to know your pet's personality and preferences, and we will provide personalized attention to ensure that your pet feels comfortable and happy in our care. We understand that each pet is unique, and we'll work with you to create a customized care plan that meets their individual needs.</p>
+            </div>
+
+            
         
                 <p> At Happy Paws, we're passionate about dogs and dedicated to providing the highest level of care. We believe that a happy, healthy pet is a vital part of a happy, healthy life. Contact us today to learn more about our services and how we can help you and your pet.</p>
     </div>
@@ -96,6 +106,26 @@
         
 </footer>
 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 
 </body>
 
