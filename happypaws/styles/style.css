@@ -16,7 +16,7 @@ body {
   }
   
   /* header section */
-  .header {
+  header {
     overflow: hidden;
     background-color: #DCCDE8;
     padding: 20px 10px;
@@ -25,7 +25,7 @@ body {
     align-items: center;
   }
   
-  .header a {
+  header a {
     float: left;
     color: #14BDEB;
     text-align: center;
@@ -36,12 +36,12 @@ body {
     border-radius: 4px;
   }
   
-  .header a.logo {
+  header a.logo {
     font-size: 25px;
     font-weight: bold;
   }
   
-  .header a:hover {
+  header a:hover {
     background-color: #B37BA4;
     color: black;
   }
@@ -65,7 +65,7 @@ body {
   
  
   
-  .header-right {
+  nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
