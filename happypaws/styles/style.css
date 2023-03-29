@@ -27,6 +27,9 @@ body {
     height: 180px;
     background-color: transparent;
     font-weight: bold;
+    border: 5px solid;
+    border-radius: 5px;
+    border-color:#B37BA4;
     
   }
   
@@ -114,11 +117,26 @@ body {
 
   /* main section */
 
+.page_header {
+  text-align: center;
+  color:#14BDEB;
+  font-weight:bold;
+  border: 5px solid;
+  border-radius: 5px;
+  border-color:#B37BA4;
+  background-color:#DCCDE8;
+  
+}
+
 .main_content {
+    margin-top: 20px;
     background-color: #f7f7f7;
     padding: 50px;
     text-align: center;
     font-family: Arial, sans-serif;
+    border: 5px solid;
+    border-radius: 5px;
+    border-color:#B37BA4;
   }
   
   .main_content_header {
@@ -146,6 +164,9 @@ footer {
     padding-top: 15px;
     padding-bottom: 15px;
     padding: 30px;
+    border: 5px solid;
+    border-radius: 5px;
+    border-color:#B37BA4;
 }
 
 footer h3 {
@@ -234,7 +255,65 @@ footer .social i:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
   width: 25%;
+  border: 5px solid;
+  border-radius: 5px;
+  border-color:#B37BA4;
 
 }
 
+/* stlying subpages main content */
+
+.boarding_choice {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid;
+  border-radius: 5px;
+  border-color:#B37BA4;
+}
+
+.boarder {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.boarder_image {
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.boarding_choice p{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 22px;
+  line-height: 1.5;
+  padding-left: 10px;
+  color: #14BDEB;
+  text-align: left;
+  background-color: #F5F5F5;
+  border-radius: 1000px 1000px 1000px 0;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  overflow: hidden;
+  padding: 10px 15px;
+  position: relative;
+}
+
+
+.boarding_choice p:before {
+  background-color: #F5F5F5;
+  border-radius: 0 0 0 10px;
+  content: "";
+  display: block;
+  height: 20px;
+  left: -10px;
+  position: absolute;
+  bottom: -10px;
+  width: 20px;
+}
