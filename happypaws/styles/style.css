@@ -142,8 +142,8 @@ body {
 footer {
     background-color: #DCCDE8;
     color: black;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding: 30px;
 }
 
@@ -155,16 +155,16 @@ footer p {
     font-size: 14px;
     color: black;
     opacity: 0.6;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-footer nav a {
+footer a {
     color: black;
     text-decoration: none;
     opacity: 0.6;
 }
 
-footer nav a:hover {
+footer a:hover {
     opacity: 1;
 }
 
@@ -182,17 +182,20 @@ footer .social i:hover {
 @media (max-width: 767px) {
     .footer .item {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 }
 
-.list1 nav a {
+.list1 a {
     margin-right: 20px;
 }
 
-.list1 nav a {
+.list1 a {
     margin-right: 20px;
 }
 
 
-    
+
+* {
+  border-radius: 10px;
+}
