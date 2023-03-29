@@ -120,6 +120,7 @@ body {
 .page_header {
   text-align: center;
   color:#14BDEB;
+  font-size: 35px;
   font-weight:bold;
   border: 5px solid;
   border-radius: 5px;
